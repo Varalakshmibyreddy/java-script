@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add styles</title>
+    <style>
+        #special{
+            color: pink;
+        }
+        one{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="special">
+        This is division one
+    </div>
+
+<script>
+    // var x = document.getElementById("special")
+    // x.style.color = "pink"
+    // x.style.border = "black 3px solid"
+    // console.log(x.style)
+    var x = document.getElementById("spcial")
+
+    console.log(x.getAttribute("id"))
+    x.setAttribute('class', 'one')
+    console.log(x.getAttribute("class"))
+</script>
+
+</body>
+</html>
